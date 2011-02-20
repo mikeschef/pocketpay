@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<EditText android:layout_height="wrap_content" android:text="@+id/EditText01" android:id="@+id/EditTextAmount" android:inputType="numberDecimal" android:layout_width="match_parent" style="@style/Default"></EditText>
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SubScript" android:text="@string/amount_due_info"></TextView><View style="@style/Break"></View>
+	<Button android:id="@+id/ButtonPayNow" android:text="@string/pay_now" style="@style/Default"></Button>
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SubScript" android:text="@string/pay_now_info"></TextView><View style="@style/Break"></View>
+	<View style="@style/Break"></View>
+	<Button android:id="@+id/ButtonPayLater" android:text="@string/pay_later" style="@style/Default"></Button>
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SubScript" android:text="@string/pay_later_info"></TextView><View style="@style/Break"></View>
+	<View style="@style/Break"></View>	
+	<LinearLayout android:layout_width="match_parent" android:id="@+id/LinearLayout01" android:layout_height="wrap_content">
+		<Button android:layout_height="wrap_content" android:text="@string/pay_later" android:id="@+id/ButtonPayLater" android:textSize="24sp" android:layout_width="wrap_content"></Button>
+		<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/ButtonPayDate" android:text="@string/pay_date" android:textSize="24sp"></Button>
+	</LinearLayout>
+
+</LinearLayout>

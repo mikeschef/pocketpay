@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Default">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="SubScript">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:gravity">left</item>
+    </style>    
+    <style name="Break">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1sp</item>
+    	<item name="android:background">#FFFFFF</item>
+    </style>
+</resources>

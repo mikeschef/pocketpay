@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="amount_due_info">Current amount due</string>
+    <string name="pay_now_info">Touch to pay now</string>
+    <string name="pay_later_info">Touch to pay later</string>
+    <string name="pay_date">date</string>
+    
+    <string name="app_name">Pocket Pay</string>
+<string name="amount_due">5.00</string>
+<string name="pay_now">Pay Now</string>
+<string name="pay_later">Pay Later</string>
+</resources>
